@@ -11,7 +11,7 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatCardModule} from '@angular/material/card';
-
+import {MatMenuModule} from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -28,7 +28,8 @@ import {MatCardModule} from '@angular/material/card';
     FlexLayoutModule,
     MatCardModule,
     MatPaginatorModule,
-    MatTableModule
+    MatTableModule,
+    MatMenuModule,
   ],
   providers: [
     // we register here services
