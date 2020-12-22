@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  // https://stackoverflow.com/questions/58739610/how-to-use-environment-variables-for-api-url-angular-8-typescript-html-and-sc
+  production: false,
 };
 
 /*

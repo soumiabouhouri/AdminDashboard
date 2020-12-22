@@ -13,6 +13,7 @@ import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatCardModule} from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
 import {HttpClientModule} from '@angular/common/http';
+import {ArticlesService} from '../../shared/shared/services/articles.service';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import {HttpClientModule} from '@angular/common/http';
   ],
   providers: [
     // we register here services
+    ArticlesService,
   ]
 })
 export class DefaultModule {
