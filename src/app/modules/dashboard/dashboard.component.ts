@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import { Chart } from 'chart.js';
-import { Data } from './Data';
 
 @Component({
   selector: 'app-dashboard',
@@ -16,11 +15,14 @@ export class DashboardComponent implements OnInit {
   // chartContainer
   chart = [];
   chart2 = [];
+  chart3 = [];
+  chart4 = [];
   constructor(private httpClient: HttpClient) {}
   ngOnInit(): void {
     this.chart = this.chart1('myChart1','line');
     this.chart2 = this.chart1('myChart2','bar');
-    this.chart2 = this.chart1('myChart3', 'doughnut');
+    this.chart3 = this.chart1('myChart3', 'doughnut');
+    this.chart4 = this.chart1('myChart4', 'polarArea');
   }
   chart1(chartContainer: string, chartType?: string){
       return new Chart(chartContainer, {
@@ -29,10 +31,10 @@ export class DashboardComponent implements OnInit {
         labels:  ['Red', 'Yellow', 'Blue'],
         datasets: [
           {
-            label: '',
             data:  [55,6,3,7,44,25,9,14],
-            borderColor: '#3cba9f',
-            fill: false,
+            borderColor: 'deepPink',
+            fill: true,
+            backgroundColor:'deepPink'
           }
         ]
       },

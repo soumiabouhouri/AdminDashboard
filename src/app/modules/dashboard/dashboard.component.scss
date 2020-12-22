@@ -5,18 +5,18 @@
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px;
+  width: 100%;
 }
 
 .left, .right {
   width: 30%;
-  height: 500px;
+  height: 300px;
 }
 
 .middle {
   width: 30%;
-  height: 500px;
+  height: 300px;
 }
 
 /* Clear floats after the columns */
