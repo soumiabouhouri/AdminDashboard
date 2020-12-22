@@ -12,6 +12,7 @@ import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatCardModule} from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import {MatMenuModule} from '@angular/material/menu';
     MatPaginatorModule,
     MatTableModule,
     MatMenuModule,
+    HttpClientModule,
   ],
   providers: [
     // we register here services

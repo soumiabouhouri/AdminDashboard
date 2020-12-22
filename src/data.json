@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "HoursOfStudy": "55",
+      "Grade": "180"
+
+    },
+    {
+      "HoursOfStudy": "54",
+      "Grade": "200"
+    },
+    {
+      "HoursOfStudy": "3546",
+      "Grade": "210"
+    },
+    {
+      "HoursOfStudy": "21",
+      "Grade": "190"
+    },
+    {
+      "HoursOfStudy": "886",
+      "Grade": "240"
+    },
+    {
+      "HoursOfStudy": "54548",
+      "Grade": "230"
+    },
+    {
+      "HoursOfStudy": "212",
+      "Grade": "260"
+    },
+    {
+      "HoursOfStudy": "87",
+      "Grade": "210"
+    },
+    {
+      "HoursOfStudy": "78ü",
+      "Grade": "300"
+    }]
+}

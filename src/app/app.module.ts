@@ -1,19 +1,22 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
+
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {DefaultModule} from './layouts/default/default.module';
+import { AreaComponent } from './shared/widgets/area/area.component';
 @NgModule({
   declarations: [
     AppComponent,
+    AreaComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    DefaultModule
+    DefaultModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
